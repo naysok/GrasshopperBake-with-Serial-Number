@@ -1,6 +1,6 @@
-# GrasshopperBake-with-Serial-Number  
+# GrasshopperBake-with-SerialNumber  
 
-![photo](GrasshopperBake-with-Serial-Number.jpg)
+![photo](GrasshopperBake-with-SerialNumber.jpg)
 
 ユニークな部材を管理するために、連番で名前をつけてファイル書き出しをする。  
 手でいちいち Bake して、名前を付けてなんてやるのは面倒なので、自動化させる。  
@@ -18,7 +18,7 @@ ghpythonlib.components と、rs.Command() はめっちゃ便利。rhino と Gras
 
 ### index
 
-- GrasshopperBake-with-Serial-Number.ghx  
+- GrasshopperBake-with-SerialNumber.ghx  
 
   - ListItem  
     - ghpythonlib.components で ListItem コンポーネントを使ってみる  
