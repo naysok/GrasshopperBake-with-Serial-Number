@@ -1,11 +1,13 @@
 # GrasshopperBake-with-SerialNumber  
 
+
+
 ![photo](GrasshopperBake-with-SerialNumber.jpg)
 
 ユニークな部材を管理するために、連番で名前をつけてファイル書き出しをする。  
 手でいちいち Bake して、名前を付けてなんてやるのは面倒なので、自動化させる。  
 
-ghpythonlib.components と、rs.Command() はめっちゃ便利。rhino と Grasshopper と Python のいいとこどりできる。  
+rs.Command() はめっちゃ便利。rhino と Grasshopper と Python のいいとこどりできる。  
 
 - 実行環境    
   - windows10  
@@ -20,11 +22,8 @@ ghpythonlib.components と、rs.Command() はめっちゃ便利。rhino と Gras
 
 - GrasshopperBake-with-SerialNumber.ghx  
 
-  - ListItem  
-    - ghpythonlib.components で ListItem コンポーネントを使ってみる  
-
   - List-Bake   
-    - K個のオブジェクトを、0 から K まで、連番で数字を振って STL ファイルに書き出し  
+    - K個のオブジェクトを、0 から K まで、連番で数字を振って STL ファイルに書き出し。  
 
 
   - Tree-Bake  
@@ -47,6 +46,8 @@ ghpythonlib.components と、rs.Command() はめっちゃ便利。rhino と Gras
 
 ---
 
+
+
 ### ref  
 
-- [ghpythonlib.componentsをつかってコンポーネント機能をpythonからコール](http://am.d-xx.com/2015/06/04/ghpythonlib-components%E3%82%92%E3%81%A4%E3%81%8B%E3%81%A3%E3%81%A6%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E6%A9%9F%E8%83%BD%E3%82%92python%E3%81%8B%E3%82%89%E3%82%B3%E3%83%BC/)  
+- ~[ghpythonlib.componentsをつかってコンポーネント機能をpythonからコール](http://am.d-xx.com/2015/06/04/ghpythonlib-components%E3%82%92%E3%81%A4%E3%81%8B%E3%81%A3%E3%81%A6%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E6%A9%9F%E8%83%BD%E3%82%92python%E3%81%8B%E3%82%89%E3%82%B3%E3%83%BC/)~ （数十個くらいなら問題ないけど重くなるので）使ってません  
